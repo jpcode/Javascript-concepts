@@ -246,3 +246,24 @@ For b() new execution context is created.
 
 ## The Execution Stack
 A collection of execution context and whichever one is on top is the one that's currently running.
+
+## Functions Context
+
+
+## Variable Enviroments
+Where a variable live or where is the variable?
+
+```javascript
+
+function foo(){
+	var myvar;
+}
+
+function bar(){
+	var myvar = 2;
+	boo();
+}
+
+var myvar = 1;
+bar();
+```
