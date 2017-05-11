@@ -207,6 +207,18 @@ var a = 'Hello Lab';
 console.log(a);
 ```
 
+In creation Phase:
+function is set up and var "a" as set up with a value of "undefined"
+
+Execution Phase:
+
+b(); /* is executed and runs that function */
+console.log(a) /* is executed and print the value to console ("undefined") */
+var a = 'Hello Lab' /* is executed and set the value in memory of a to the stirng Hello World */
+console.log(a) /* is executed */
+
+
+
 Further reading
 https://dzone.com/articles/javascript-execution-context
 
