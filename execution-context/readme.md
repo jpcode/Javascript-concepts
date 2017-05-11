@@ -40,7 +40,7 @@ A Wrapper to help manage the code that is running.
 
 Hoisting: 
 
-```
+```javascript
 	/* First Scenario */
 	var a = 'Hello Lab';
 
@@ -90,45 +90,52 @@ Life Cycle:
 	- Executed
 
 Let's understand with an example:
-  function sayHi( name ){
-   	var hi = 'Hello my friend!';
-   	var say = function(){
-   		alert( hi );
-   	};
-   	function foo(){};
-  }
-  sayHi('Jp');
 
+```javascript
+	  function sayHi( name ){
+	   	var hi = 'Hello my friend!';
+	   	var say = function(){
+	   		alert( hi );
+	   	};
+	   	function foo(){};
+	  }
+	  sayHi('Jp');
+```
 Let's create execution contex for this example:
 
-ecSayHi(){
-	variableObject : {
-		arguments: {
-           0: 'Jp',
-           length: 1
+```javascript
+	ecSayHi(){
+		variableObject : {
+			arguments: {
+	           0: 'Jp',
+	           length: 1
+		    },
+		    name: 'Jp',
+		    f : a pointer memory to "f" function
+		    hi : undefined,
+		    say: undefined
 	    },
-	    name: 'Jp',
-	    f : a pointer memory to "f" function
-	    hi : undefined,
-	    say: undefined
-    },
 
-   scopeChain : {},
-   thisForSayHi : {}
-}
+	   scopeChain : {},
+	   thisForSayHi : {}
+	}
+```
 
 **The call stack is a collection of execution context.
 
 ## undefined
+```javascript
 
-Scenario 1: 
+ /* Scenario 1: */ 
 
 var myVar;
 console.log( myVar );
 
-Scenario 2:
+/* Scenario 2: */
 
 console.log( myVar2 );
+
+```
 
 Undefined is the same as Not defined? --- No.
 
