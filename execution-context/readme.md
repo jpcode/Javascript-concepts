@@ -247,21 +247,57 @@ For b() new execution context is created.
 ## The Execution Stack
 A collection of execution context and whichever one is on top is the one that's currently running.
 
-## Functions Context
-
-
-## Variable Enviroments
+## Functions Context and Variable Enviroments
 Where a variable live or where is the variable?
 
 ```javascript
 
 function foo(){
 	var myvar;
+	console.log( myvar );
 }
 
 function bar(){
 	var myvar = 2;
-	boo();
+	console.log( myvar );
+	foo();
+}
+
+var myvar = 1;
+console.log( myvar );
+bar();
+console.log( myvar );
+```
+
+## Scope Chain
+
+Javascript do more than just look in the variable environment of it execution context.
+Any execution context has a reference to the outer environment. If a variable is not found in environment variable, look at the outer reference and go look for variables in there.
+
+
+```javascript
+
+function foo(){
+	console.log( myvar );
+}
+
+function bar(){
+	var myvar = 2;
+	foo();
+}
+
+var myvar = 1;
+bar();
+```
+
+```javascript
+
+function foo(){
+	function bar(){
+		console.log( myvar );
+	}
+	var myvar = 2;
+	bar();
 }
 
 var myvar = 1;
