@@ -40,38 +40,39 @@ A Wrapper to help manage the code that is running.
 
 Hoisting: 
 
-/* First Scenario */
-var a = 'Hello Lab';
+```
+	/* First Scenario */
+	var a = 'Hello Lab';
 
-function b(){
-	console.log('called');
-}
+	function b(){
+		console.log('called');
+	}
 
-b();
-console.log(a);
+	b();
+	console.log(a);
 
-/* Second Scenario */
+	/* Second Scenario */
 
-b();
-console.log(a);
+	b();
+	console.log(a);
 
-var a = 'Hello Lab';
+	var a = 'Hello Lab';
 
-function b(){
-	console.log('called');
-}
-
-
-/* Third Scenario */
-
-b();
-console.log(a);
-
-function b(){
-	console.log('called');
-}
+	function b(){
+		console.log('called');
+	}
 
 
+	/* Third Scenario */
+
+	b();
+	console.log(a);
+
+	function b(){
+		console.log('called');
+	}
+
+```
 Hosting Definition:
 
 Setup Memory Space for variables and functions before your code begins to be executed line by line.
