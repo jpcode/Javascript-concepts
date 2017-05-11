@@ -123,8 +123,6 @@ Let's create execution contex for this example:
 	}
 ```
 
-**The call stack is a collection of execution context.
-
 ## undefined
 ```javascript
 
@@ -225,3 +223,26 @@ console.log(a) /* is executed */
 Further reading
 https://dzone.com/articles/javascript-execution-context
 
+## Function Invocation
+Running a function.
+
+```javascript
+	function b(){
+
+    }
+
+    function a(){
+    	function b();
+    }
+
+    a();
+```
+
+What is first created?
+ - Global Execution Context
+
+For a() new execution context is created and place into the Execution Stack.
+For b() new execution context is created.
+
+## The Execution Stack
+A collection of execution context and whichever one is on top is the one that's currently running.
