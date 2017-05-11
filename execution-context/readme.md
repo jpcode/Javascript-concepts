@@ -10,11 +10,13 @@ Is a program that reads your code and determines what it does and if its grammar
 - Interpreters
 
 Code:
+```javascript
 
 function sayHi(){
 	var hi = 'Hi!!';
 }
 
+```
 Computer Instructions:
 
 Function
@@ -143,6 +145,7 @@ Internally Undefined means: The variable hasn't been set. Is a special keyword/v
 
 Scenario 1 : 
 
+```javascript
 var a;
 console.log(a);
 
@@ -151,9 +154,13 @@ if ( a === undefined ){
 }else{
 	console.log('a is defined');
 }
+
+```
 
 Scenario 2: 
 
+```javascript
+
 console.log(a);
 
 if ( a === undefined ){
@@ -162,11 +169,17 @@ if ( a === undefined ){
 	console.log('a is defined');
 }
 
-Never do this:
-var a = undefined;
+```
 
+Never do this:
+```javascript
+var a = undefined;
+```
 
 Scenario:
+
+```javascript
+
 var a;
 console.log(a);
 
@@ -175,13 +188,14 @@ if ( a === undefined ){
 }else{
 	console.log('a is defined');
 }
-
+```
 
 Is difficult to debug, althought you don't know if is undefined because your set it or because JS engine set it.
 
 
 ## Execution Phase detail
 
+```javascript
 
 function b(){
 	console.log('called b');
@@ -191,7 +205,7 @@ b();
 console.log(a);
 var a = 'Hello Lab';
 console.log(a);
-
+```
 
 Further reading
 https://dzone.com/articles/javascript-execution-context
