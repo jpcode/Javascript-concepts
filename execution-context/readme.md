@@ -301,5 +301,5 @@ function foo(){
 }
 
 var myvar = 1;
-bar();
+foo();
 ```
