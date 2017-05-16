@@ -1,4 +1,4 @@
-#Types
+# Types
 
 How javascript deal with types? 
 
