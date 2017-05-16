@@ -25,3 +25,14 @@ https://www.quora.com/What-is-the-difference-between-a-dynamically-typed-and-a-s
 ## Primitive types
 What primitive type means?
 A type of data that represents a single value.
+
+- Undefined : Lack of existence ( Don't use a initially value, see "Execution Context topic")
+- Null : Lack of existence ( you can use to set to nothing )
+- Boolean: It can be true or false.
+- Number: This is the only one numeric type in javascript and its a floating point number, other language have integer, float, double, etc. So imagine what are some restriction related to this behavior.
+- String:  a Sequence of characters you can use a simple quotes or double quotes to set it.
+- Symbol ( ES6 ) : A inmutable type that you can use as identifiers.
+
+Further reading:
+https://developer.mozilla.org/en-US/docs/Glossary/Symbol
+
