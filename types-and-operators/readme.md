@@ -1,4 +1,5 @@
 #Types
+
 How javascript deal with types? 
 
 There are some programming languages that you need to define what type each variable is, that is called static typed. Where compiler do the type checking process and will detect bugs early. Examples: Java, C, C++.
@@ -22,4 +23,5 @@ https://www.quora.com/What-is-the-difference-between-a-dynamically-typed-and-a-s
 
 
 ## Primitive types
-
+What primitive type means?
+A type of data that represents a single value.
