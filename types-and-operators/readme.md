@@ -205,8 +205,10 @@ https://www.quora.com/How-can-a-computer-understand-binary-code
 http://www.kerryr.net/pioneers/binary.htm
 
 
-Bitwise AND ( & )
+# Bitwise AND ( & )
 
+|  bits     | Representation   		    |
+| ------------- | ------------- |
 | bit1 | 00000000000000000000000000001001 & |
 | bit2 | 00000000000000000000000000000101   |
-|    &:  00000000000000000000000000000001   |
+|    &:| 00000000000000000000000000000001   |
