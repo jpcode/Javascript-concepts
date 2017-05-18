@@ -100,9 +100,8 @@ https://en.wikipedia.org/wiki/Infix_notation
 
 # Truthy and Falsy Table
 
-|  Operator     | Usage		    |
+|  Truthy: evaluates to true      | Falsy: evaluates to false		    |
 | ------------- | ------------- |
-| Truthy: evaluates to true 	| Falsy: evaluates to false      |
 | if (true) | if (false) |
 | if ({}) | if (null) |
 | if ([]) | if (undefined) |
