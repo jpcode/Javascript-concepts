@@ -275,3 +275,43 @@ Any digit that is a 1 in the expression becomes a 0 in the result. Any digit tha
 | -------- | ------- |
 | Bit | 00001001 |
 | ~Bit | 11110110 |
+
+# Left Shift ( << )
+
+The Left Shift operator shifts the bits of the binary number left by the number of bits specified.
+
+## Example
+|       | Representation   		    |
+| -------- | ------- |
+| Bit | 00001110 << 2 |
+| ~Bit | 00111000  |
+
+
+# Zero-fill right shift (>>>)
+
+The Zero-fill right shift operator shifts the bits of the binary number right by adding in zeros and disregarding the extra bits to the right.
+
+
+## Example
+|       | Representation   		    |
+| -------- | ------- |
+| Bit | 00001110  >>> 2 |
+| ~Bit | 00000011  |
+
+
+# Sign-propagating right shift (>>)
+
+This right shift is similar to the zero-fill except that it preserved the sign, whether the number is positive or negative. In our previous example, the output is always positive.
+
+## Example
+|       | Positive signed bit   		    |
+| -------- | ------- |
+| Bit | 00001110  >> 2 |
+| ~Bit | 00000011  |
+
+## Example
+|       | Negative signed bit   		    |
+| -------- | ------- |
+| Bit | 10001100   >> 2 |
+| ~Bit | 11000000  |
+
