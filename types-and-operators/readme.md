@@ -119,3 +119,94 @@ https://developer.mozilla.org/en-US/docs/Glossary/Truthy
 | if (-3.14) | |
 | if (Infinity) | |
 | if (-Infinity) | |
+
+# Logical AND ( && )
+
+```javascript
+	
+	//---- NON-BOOLEAN ----
+	//Returns a if it can be converted to false; otherwise, returns b.
+
+	"hello" && "hi" 
+	"testing" && ""
+	0 && 1
+
+	//---- BOOLEAN ----
+	//Returns true if both operands are true; otherwise, returns false.
+
+	true && true
+	false && true
+	true && false
+	false && false
+
+```
+
+# Logical OR ( || )
+
+```javascript
+	
+	//---- NON-BOOLEAN ----
+	//Returns a if it can be converted to true; otherwise, returns b. 
+	"Hello" || "hi"
+	"testing" || ""
+	1 || 0
+
+	//---- BOOLEAN ----
+	//Returns true if either operand is true.
+	true || true
+	false || true
+	true || false
+	False || false
+
+```
+
+# Logical NOT (!)
+
+```javascript
+	
+	//Returns false if a can be converted to true; otherwise, returns true.
+	!true
+	!false
+	!''
+	!1
+
+```
+
+Using "!!", what is the difference between ! and !! ?
+
+Double negation turns a truthy or falsy value into a boolean value ( true or false )
+
+```javascript
+	
+	var guy = {
+		age : 25,
+		married : 1
+	};
+
+	if ( guy.married ){
+		// execute something is a guy is married, but in a truthy way.
+		console.log( guy.age );
+	}
+
+	guy.married === true // this could be trutht or not
+
+	!!guy.married === true // with this you  force a truthy value to be a boolean value
+
+```
+
+# Binary & Bitwise Operators ( Introduction )
+
+Unlike logic operators we reviewed prior, bitwise operators can only be performed on numbers. When we write out our bitwise code, we typically use decimal representation of the number; however JavaScript converts these numbers under the hood to a 32-bit binary representation of the number. 
+
+You should learn , how binary works before to see this section
+
+Further reading: 
+https://www.quora.com/How-can-a-computer-understand-binary-code
+http://www.kerryr.net/pioneers/binary.htm
+
+
+Bitwise AND ( & )
+
+| bit1 | 00000000000000000000000000001001 & |
+| bit2 | 00000000000000000000000000000101   |
+|    &:  00000000000000000000000000000001   |
