@@ -93,7 +93,14 @@ https://en.wikipedia.org/wiki/Infix_notation
 	if ([])
 
 	if ('')
-	
+
 	if (NaN)
+
 ```
 
+# Truthy and Falsy Table
+
+|  Operator     | Usage		    |
+| ------------- | ------------- |
+| Truthy: evaluates to true 	| Falsy: evaluates to false      |
+| if (true) | if (false) |
