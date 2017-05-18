@@ -98,6 +98,12 @@ https://en.wikipedia.org/wiki/Infix_notation
 
 ```
 
+Further reading:
+https://developer.mozilla.org/en-US/docs/Glossary/Boolean
+https://developer.mozilla.org/en-US/docs/Glossary/Falsy
+https://developer.mozilla.org/en-US/docs/Glossary/Truthy
+
+
 # Truthy and Falsy Table
 
 |  Truthy: evaluates to true      | Falsy: evaluates to false		    |
