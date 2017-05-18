@@ -68,12 +68,9 @@ https://en.wikipedia.org/wiki/Infix_notation
 
 |  Operator     | Usage		    |
 | ------------- | ------------- |
-| Logical AND 
-	(&&)  		| a  && b       |
-| Logical OR
- (||)		    | a  || b       |
-| Logical NOT 
-  (!)	    	| !a            |
+| Logical AND  	| a  && b       |
+| Logical OR	| a  || b       |
+| Logical NOT   | !a            |
 
 
 
