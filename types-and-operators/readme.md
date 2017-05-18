@@ -49,7 +49,7 @@ Remember syntax parser...
 
 In Javascript as other languages provides the option to write in infix notation.
 
-#Infix
+# Infix
 Placement of operators between operands 
 
 ```javascript
@@ -64,7 +64,7 @@ Placement of operators between operands
 Further reading:
 https://en.wikipedia.org/wiki/Infix_notation
 
-#Operators in JS.
+# Operators in JS.
 
 |  Operator     | Usage		    |
 | ------------- | ------------- |
