@@ -256,6 +256,16 @@ XOR means exclusive OR. When one, and only one, of the expressions has a 1 in a 
 | bit2 | 00000000000000000000000000000101   |
 | result  | 00000000000000000000000000001100   |
 
+## Exercise
+
+You have an array that contain several numbers, each number is repeated except 1, Could you find what element is not repeated??
+
+ Example : 
+  [ 2, 3, 3, 2, 4, 5, 4 ], answer should be : 5
+
+
+
+
 ## Bitwise NOT (~)
 
 Any digit that is a 1 in the expression becomes a 0 in the result. Any digit that is a 0 in the expression becomes a 1 in the result.
