@@ -64,7 +64,7 @@ Placement of operators between operands
 Further reading:
 https://en.wikipedia.org/wiki/Infix_notation
 
-# Operators in JS.
+# JS logic operators in JS.
 
 |  Operator     | Usage		    |
 | ------------- | ------------- |
@@ -72,5 +72,28 @@ https://en.wikipedia.org/wiki/Infix_notation
 | Logical OR	| a  || b       |
 | Logical NOT   | !a            |
 
+# Truthy and Falsy
 
+ Like most computer languages, JavaScript supports Boolean data types; values which can be set to true or false. In addition, everything in JavaScript has an inherent Boolean value, generally known as either truthy or falsy. Handling truthy and falsy values can be a little quirky, especially when comparing variables. Understanding some of the more bizarre rules can help when debugging complex client-side applications. Let’s see if we can predict the whether or not the following evaluate as true or false!
+
+```javascript
+	
+	if (true)
+
+	if (false)
+
+	if (-3.14)
+
+	if (3.14)
+
+	if ("foo")
+
+	if (undefined)
+
+	if ([])
+
+	if ('')
+	
+	if (NaN)
+```
 
