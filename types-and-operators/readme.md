@@ -228,3 +228,16 @@ When we use the bitwise AND operator, we compare each digit of binary representa
 # Bitwise OR ( | )
  when we do the OR operation, we compare each place of the two numbers. Except this time if there is at least one 1 then the output will be one.
 
+|  Bit1     | Bit2 | ANDed value |
+| ----- | -----| ----- |
+| 0 | 0 | 0 |
+| 1 | 1 | 1 |
+| 1 | 0 | 1 |
+| 0 | 1 | 1 |
+
+## Example
+|  bits     | Representation   		    |
+| ------------- | ------------- |
+| bit1 | 00000000000000000000000000001001  |
+| bit2 | 00000000000000000000000000000101   |
+|    :| 00000000000000000000000000001101   |
