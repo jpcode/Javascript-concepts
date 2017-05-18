@@ -220,9 +220,9 @@ When we use the bitwise AND operator, we compare each digit of binary representa
 ## Example
 |  bits     | Representation   		    |
 | ------------- | ------------- |
-| bit1 | 00000000000000000000000000001001 & |
+| bit1 | 00000000000000000000000000001001  |
 | bit2 | 00000000000000000000000000000101   |
-|    &:| 00000000000000000000000000000001   |
+| result   | 00000000000000000000000000000001   |
 
 
 # Bitwise OR ( | )
@@ -238,6 +238,6 @@ When we use the bitwise AND operator, we compare each digit of binary representa
 ## Example
 |  bits     | Representation   		    |
 | ------------- | ------------- |
-| bit1 | 00000000000000000000000000001001 "|" |
+| bit1 | 00000000000000000000000000001001  |
 | bit2 | 00000000000000000000000000000101   |
-|    "|":| 00000000000000000000000000001101   |
+| result  | 00000000000000000000000000001101   |
