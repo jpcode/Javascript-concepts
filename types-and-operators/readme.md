@@ -271,7 +271,7 @@ Any digit that is a 1 in the expression becomes a 0 in the result. Any digit tha
 | 0 | 1 | 
 
 ## Example
-|  bits     | Representation   		    |
+|       | Representation   		    |
 | -------- | ------- |
 | Bit | 00001001 |
 | ~Bit | 11110110 |
