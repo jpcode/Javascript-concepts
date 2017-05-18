@@ -36,3 +36,44 @@ A type of data that represents a single value.
 Further reading:
 https://developer.mozilla.org/en-US/docs/Glossary/Symbol
 
+## Operator
+Is a special function that is written differently.
+Examples:
+```javascript
+	var s = 1 + 2;
+	console.log( s ); // 3
+```
+
+How JS engine do "1+2"?
+Remember syntax parser...
+
+In Javascript as other languages provides the option to write in infix notation.
+
+#Infix
+Placement of operators between operands 
+
+```javascript
+	// prefix:
+	+ 1 2;
+	// postFix
+	3 4+
+	// infix ( Human readable )
+	3 + 4 
+```
+
+Further reading:
+https://en.wikipedia.org/wiki/Infix_notation
+
+#Operators in JS.
+
+|  Operator     | Usage		    |
+| ------------- | ------------- |
+| Logical AND 
+	(&&)  		| a  && b       |
+| Logical OR
+ (||)		    | a  || b       |
+| Logical NOT 
+  (!)	    	| !a            |
+
+
+
