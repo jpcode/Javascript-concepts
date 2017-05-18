@@ -284,7 +284,7 @@ The Left Shift operator shifts the bits of the binary number left by the number 
 |       | Representation   		    |
 | -------- | ------- |
 | Bit | 00001110 << 2 |
-| ~Bit | 00111000  |
+| Result | 00111000  |
 
 
 # Zero-fill right shift (>>>)
@@ -296,7 +296,7 @@ The Zero-fill right shift operator shifts the bits of the binary number right by
 |       | Representation   		    |
 | -------- | ------- |
 | Bit | 00001110  >>> 2 |
-| ~Bit | 00000011  |
+| Result | 00000011  |
 
 
 # Sign-propagating right shift (>>)
@@ -307,11 +307,11 @@ This right shift is similar to the zero-fill except that it preserved the sign, 
 |       | Positive signed bit   		    |
 | -------- | ------- |
 | Bit | 00001110  >> 2 |
-| ~Bit | 00000011  |
+| Result |  00000011  |
 
 ## Example
 |       | Negative signed bit   		    |
 | -------- | ------- |
 | Bit | 10001100   >> 2 |
-| ~Bit | 11000000  |
+| Result | 11000000  |
 
