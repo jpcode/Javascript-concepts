@@ -228,7 +228,7 @@ When we use the bitwise AND operator, we compare each digit of binary representa
 # Bitwise OR ( | )
  when we do the OR operation, we compare each place of the two numbers. Except this time if there is at least one 1 then the output will be one.
 
-|  Bit1     | Bit2 | ANDed value |
+|  Bit1     | Bit2 | ORed value |
 | ----- | -----| ----- |
 | 0 | 0 | 0 |
 | 1 | 1 | 1 |
@@ -241,3 +241,37 @@ When we use the bitwise AND operator, we compare each digit of binary representa
 | bit1 | 00000000000000000000000000001001  |
 | bit2 | 00000000000000000000000000000101   |
 | result  | 00000000000000000000000000001101   |
+
+# Bitwise XOR (^) 
+XOR means exclusive OR. When one, and only one, of the expressions has a 1 in a digit, the result has a 1 in that digit. Otherwise, the result has a 0 in that digit.
+
+|  Bit1     | Bit2 | XORed value |
+| ----- | -----| ----- |
+| 0 | 0 | 0 |
+| 1 | 1 | 0 |
+| 1 | 0 | 1 |
+| 0 | 1 | 1 |
+
+## Example
+|  bits     | Representation   		    |
+| ------------- | ------------- |
+| bit1 | 00000000000000000000000000001001  |
+| bit2 | 00000000000000000000000000000101   |
+| result  | 00000000000000000000000000001100   |
+
+## Bitwise NOT (~)
+
+Any digit that is a 1 in the expression becomes a 0 in the result. Any digit that is a 0 in the expression becomes a 1 in the result.
+
+|  Bit1     | NOT |
+| ----- | -----| 
+| 0 | 1 | 
+| 1 | 0 | 
+| 1 | 0 | 
+| 0 | 1 | 
+
+## Example
+
+| ------------- | ------------- |
+| Bit | ~00001001   |
+| result | 11110110   |
