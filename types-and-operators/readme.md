@@ -263,7 +263,13 @@ You have an array that contain several numbers, each number is repeated except 1
  Example : 
   [ 2, 3, 3, 2, 4, 5, 4 ], answer should be : 5
 
+```javascript
+	
+	function getNotRepeated( arr ){
+		
+	}
 
+```
 
 
 ## Bitwise NOT (~)
